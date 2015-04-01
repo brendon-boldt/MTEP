@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="temperaments">
+        <item>Melancholic</item>
+        <item>Sanguine</item>
+        <item>Choleric</item>
+        <item>Phlegmatic</item>
+    </string-array>
+</resources>

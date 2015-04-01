@@ -1,0 +1,47 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.brendon.proto.ProfileFragment"
+    android:rowCount="1"
+    android:columnCount="2"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_gravity="left">
+
+        <TextView android:id="@+id/profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="32dp"
+            android:clickable="true"
+            android:textColor="@color/primary_material_dark"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Temperament"
+            android:id="@+id/profile_temperament"
+            android:layout_gravity="left" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/profile_image"
+        android:layout_gravity="top|right"
+        android:src="@drawable/ic_action_user"
+        android:contentDescription="@string/descritption_profile_picture"
+        android:background="@color/background_floating_material_light"/>
+
+</GridLayout>

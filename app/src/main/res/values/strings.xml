@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Proto</string>
+    <string name="edit_question">Who is your favorite philosopher?</string>
+    <string name="edit_response">Socrates</string>
+    <string name="button_send">Submit</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">Question-Response</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_edit_profile">Edit Profile</string>
+    <string name="title_question"><b>Question</b></string>
+    <string name="title_response"><b>Response</b></string>
+    <string name="title_activity_profile_view">ProfileView</string>
+    <string name="title_profile"><b>Profile</b></string>
+    <string name="text_blank_fragment">Static</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+    <string name="descritption_profile_picture">Profile Picture</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="goto_generate_question_button">Ask!</string>
+    <string name="title_generate_question">Generate Question</string>
+
+</resources>
